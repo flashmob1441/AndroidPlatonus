@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="platonus_red_primary">#D32F2F</color>
+    <color name="platonus_red_primary_dark">#B71C1C</color>
+    <color name="platonus_red_accent">#FF5252</color>
+    <color name="platonus_white_background">#FFFFFF</color>
+    <color name="platonus_grey_background_light">#F5F5F5</color>
+    <color name="platonus_text_primary_on_white">#212121</color>
+    <color name="platonus_text_secondary_on_white">#757575</color>
+    <color name="platonus_text_primary_on_red">#FFFFFF</color>
+    <color name="platonus_divider_color">#BDBDBD</color>
+    <color name="platonus_green_confirm">#4CAF50</color>
+    <color name="platonus_yellow_warning">#FFC107</color>
+    <color name="platonus_black">#000000</color>
+    <color name="platonus_white">#FFFFFF</color>
+</resources>

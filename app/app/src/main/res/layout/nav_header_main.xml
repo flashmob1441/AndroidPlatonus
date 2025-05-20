@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/platonus_red_primary"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.MaterialComponents.Dark">
+
+    <ImageView
+        android:id="@+id/imageViewUserAvatar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_profile"
+        app:tint="@color/platonus_white"
+        android:layout_marginTop="24dp"
+        android:contentDescription="User Avatar"/>
+
+    <TextView
+        android:id="@+id/textViewUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Тест"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/platonus_text_primary_on_red"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test@example.com"
+        android:textColor="@color/platonus_text_primary_on_red"/>
+</LinearLayout>

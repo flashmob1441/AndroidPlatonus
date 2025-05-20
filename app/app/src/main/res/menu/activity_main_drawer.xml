@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Главная" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="Расписание" />
+        <item
+            android:id="@+id/nav_grades"
+            android:icon="@drawable/ic_grades"
+            android:title="Оценки"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_my_students"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="Мои студенты"
+            android:visible="false"/>
+    </group>
+
+    <item android:title="Аккаунт">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Выйти" />
+        </menu>
+    </item>
+</menu>

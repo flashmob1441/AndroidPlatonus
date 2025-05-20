@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Platonus" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/platonus_red_primary</item>
+        <item name="colorPrimaryVariant">@color/platonus_red_primary_dark</item>
+        <item name="colorOnPrimary">@color/platonus_text_primary_on_red</item>
+        <item name="colorSecondary">@color/platonus_red_accent</item>
+        <item name="colorSecondaryVariant">@color/platonus_red_accent</item>
+        <item name="colorOnSecondary">@color/platonus_text_primary_on_red</item>
+        <item name="android:colorBackground">@color/platonus_white_background</item>
+        <item name="colorSurface">@color/platonus_white_background</item>
+        <item name="colorOnBackground">@color/platonus_text_primary_on_white</item>
+        <item name="colorOnSurface">@color/platonus_text_primary_on_white</item>
+        <item name="android:statusBarColor">@color/platonus_red_primary_dark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <style name="Theme.Platonus" parent="Base.Theme.Platonus" />
+
+    <style name="Theme.Platonus.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+    <style name="Theme.Platonus.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="PlatonusToolbarStyle" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/platonus_red_primary</item>
+        <item name="titleTextColor">@color/platonus_text_primary_on_red</item>
+        <item name="navigationIconTint">@color/platonus_text_primary_on_red</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="PlatonusCardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardBackgroundColor">@color/platonus_white_background</item>
+    </style>
+
+    <style name="PlatonusButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/platonus_red_primary</item>
+        <item name="android:textColor">@color/platonus_text_primary_on_red</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="PlatonusTextTitle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/platonus_text_primary_on_white</item>
+    </style>
+
+    <style name="PlatonusTextBody" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/platonus_text_secondary_on_white</item>
+    </style>
+</resources>

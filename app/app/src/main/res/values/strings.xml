@@ -1,0 +1,11 @@
+<resources>
+    <string name="home_greeting">Здравствуйте, %1$s</string>
+    <string name="home_role">Роль: %1$s</string>
+    <string name="role_student">Студент</string>
+    <string name="role_teacher">Преподаватель</string>
+    <string name="dialog_grade_title">Оценка для %1$s</string>
+    <string name="grade_course">Курс: %1$d</string>
+    <string name="app_name">Platonus</string>
+    <string name="navigation_drawer_open">Открыть навигацию</string>
+    <string name="navigation_drawer_close">Закрыть навигацию</string>
+</resources>
